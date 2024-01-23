@@ -3,15 +3,16 @@ import Header from "./Components/Header";
 import NavBar from "./Components/NavBar";
 import BlogList from "./Components/BlogList";
 import Footer from "./Components/Footer";
+import { Container } from "./StyleComponents/styled";
 
 function App() {
   return (
-    <div className="fashion-bog-app">
+    <Container className="fashion-bog-app">
       <Header />
       <NavBar />
       <BlogList />
       <Footer />
-    </div>
+    </Container>
   );
 }
 
