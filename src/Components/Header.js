@@ -1,7 +1,8 @@
+import { HeaderStyle } from "../StyleComponents/styled";
 function Header() {
   return (
     <div>
-      <h1>Sartre's List</h1>
+      <HeaderStyle>Sartre's List</HeaderStyle>
       <h4>Better-Dressed People</h4>
     </div>
   );

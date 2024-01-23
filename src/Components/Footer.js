@@ -1,30 +1,31 @@
+import { BlogLink, BlogFooter, StyleFooter } from "../StyleComponents/styled";
 function Footer() {
   return (
-    <footer class="fashion">
-      <ol>
+    <StyleFooter>
+      <BlogFooter>
         <li>
-          <a href="">Women's</a>
+          <BlogLink href="">Women's</BlogLink>
         </li>
         <li>
-          <a href="">Men's</a>
+          <BlogLink href="">Men's</BlogLink>
         </li>
         <li>
-          <a href="">On the Street</a>
+          <BlogLink href="">On the Street</BlogLink>
         </li>
         <li>
-          <a href="">The Catwalk</a>
+          <BlogLink href="">The Catwalk</BlogLink>
         </li>
         <li>
-          <a href="">AdWatch</a>
+          <BlogLink href="">AdWatch</BlogLink>
         </li>
         <li>
-          <a href="">About</a>
+          <BlogLink href="">About</BlogLink>
         </li>
         <li>
-          <a href="">Tips</a>
+          <BlogLink href="">Tips</BlogLink>
         </li>
-      </ol>
-    </footer>
+      </BlogFooter>
+    </StyleFooter>
   );
 }
 
