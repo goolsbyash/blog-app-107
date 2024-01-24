@@ -1,8 +1,11 @@
-import { BlogLink, BlogFooter, StyleFooter } from "../StyleComponents/styled";
+import { BlogLink, BlogFooter, StyleFooter, Copyright } from "../StyleComponents/styled";
 function Footer() {
   return (
     <StyleFooter>
       <BlogFooter>
+      <li>
+          <BlogLink href="">Home</BlogLink>
+        </li>
         <li>
           <BlogLink href="">Women's</BlogLink>
         </li>
@@ -25,6 +28,7 @@ function Footer() {
           <BlogLink href="">Tips</BlogLink>
         </li>
       </BlogFooter>
+      <Copyright>&#169; 2013 Valet Industries, Inc</Copyright>
     </StyleFooter>
   );
 }

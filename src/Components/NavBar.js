@@ -1,14 +1,15 @@
+import { BlogFooter, NavLink } from "../StyleComponents/styled";
 function NavBar() {
     return (
-        <nav class="fashion">
-            <ol>
-                <li><a href="">Women's</a></li>
-                <li><a href="">Men's</a></li>
-                <li><a href="">On the Street</a></li>
-                <li><a href="">The Catwalk</a></li>
-                <li><a href="">AdWatch</a></li>
-                <li><a href="">About</a></li>
-            </ol>
+        <nav class="fashion" style={{ width:"80%" }}>
+            <BlogFooter>
+                <li><NavLink href="">Women's</NavLink></li>
+                <li><NavLink href="">Men's</NavLink></li>
+                <li><NavLink href="">On the Street</NavLink></li>
+                <li><NavLink href="">The Catwalk</NavLink></li>
+                <li><NavLink href="">AdWatch</NavLink></li>
+                <li><NavLink href="">About</NavLink></li>
+            </BlogFooter>
         </nav>
     )
 }
