@@ -1,4 +1,45 @@
-.App {
+html {
+  border-left: 5px solid lightgray;
+}
+
+body {
+  min-height: 100%;
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: auto;
+}
+
+article {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+#dateLine {
+  font-size: 30px;
+  color: lightgray;
+}
+
+#pSection {
+  color: rgb(79, 91, 102);
+  font-size: 16px;
+  line-height: 2em;
+}
+
+#pSection::first-letter {
+  font-size: 80px;
+  color: lightgray;
+  float: left;
+  line-height: 0.5em;
+  padding-bottom: 0.05em;
+  padding-top: 0.2em;
+}
+
+#contLink {
+float: right;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +76,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

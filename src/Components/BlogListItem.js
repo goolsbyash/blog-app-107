@@ -31,17 +31,16 @@ const blogPosts = [
 function BlogListItem() {
   let blogItem = blogPosts.map((p) => {
     return (
-      <article style={{ width:"80%" }}>
-        <p> {p.blogDate}</p>
+      <article>
+        <p id="dateLine"> {p.blogDate}</p>
         <BlogTitle> {p.blogTitle}</BlogTitle>
-        <img src={p.imgSrc} alt="blog post image" style={{ width:"85%" }}></img>
-        <p style={{ width:"85%" }}>{p.blogPost}</p>
-        <Continue href="#">Continues ...</Continue>
-        <hr/>
+        <img src={p.imgSrc} alt="blog post image" style={{ width:"100%" }}></img>
+        <p id="pSection">{p.blogPost}</p>
+        <Continue id="contLink" href="#">Continues ...</Continue>
       </article>
     );
   });
-  return <div style={{ width:"80%"}}>{blogItem}</div>;
+  return <div>{blogItem}</div>;
 }
 
 export default BlogListItem;
