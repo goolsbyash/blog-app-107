@@ -1,6 +1,6 @@
 # Lab 320H.1.2 React Fashion Blog
 
-Live deployment link: TBA
+Live deployment link: [https://example-fashion-blog.netlify.app/](https://example-fashion-blog.netlify.app/)
 
 This a simple React app created to mimic this example fashion blog:
 
